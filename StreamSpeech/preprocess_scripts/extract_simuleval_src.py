@@ -25,9 +25,14 @@ def main():
         wav = f_wav.read().splitlines()
     with open(args.output_src, "w") as f_src:
         for x in wav:
-            src = d[x.split("/")[-1][:-4]]
-            src = re.sub(r"[^\w\s]", "", src.lower())
-            f_src.write(src + "\n")
+            # Extract audio ID from the path (last part after /)
+            audio_id = x.split("/")[-1]
+            if audio_id in d:
+                src = d[audio_id]
+                src = re.sub(r"[^\w\s]", "", src.lower())
+                f_src.write(src + "\n")
+            else:
+                print(f"Warning: ID {audio_id} not found in TSV data")
 
 
 if __name__ == "__main__":

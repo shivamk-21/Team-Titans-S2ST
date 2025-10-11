@@ -1,13 +1,19 @@
-lang=es
+lang=$1
 
-ROOT=/data/zhangshaolei/StreamSpeech
+ROOT=/run/media/shivamk21/data/ML-Project/StreamSpeech
 PREPROCESS_ROOT=$ROOT/preprocess_scripts
+
+# python $PREPROCESS_ROOT/create_datasets.py
+# echo 'finish making processed dataset'
+
+# bash $PREPROCESS_ROOT/0.download_pretrain_models.sh
+# echo 'finish 0.download_pretrain_models.sh'
 
 bash $PREPROCESS_ROOT/1.learn_KM_clustering_model.sh $lang
 echo 'finish 1.learn_KM_clustering_model.sh'
 
-bash $PREPROCESS_ROOT/2.prep_cvss_c_multilingual_data.sh $lang
-echo 'finish 2.prep_cvss_c_multilingual_data.sh'
+bash $PREPROCESS_ROOT/2.prep_cvss_c_simple.sh $lang
+echo 'finish 2.prep_cvss_c_simple.sh'
 
 bash $PREPROCESS_ROOT/3.prep_cvss_c_multitask_data.sh $lang
 echo 'finish 3.prep_cvss_c_multitask_data.sh'

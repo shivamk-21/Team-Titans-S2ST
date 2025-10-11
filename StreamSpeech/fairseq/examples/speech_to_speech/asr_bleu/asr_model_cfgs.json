@@ -21,7 +21,7 @@
     },
     "es": {
         "oct22": {
-            "model_path": "/data/zhangshaolei/pretrain_models/jonatasgrosman--wav2vec2-large-xlsr-53-spanish",
+            "model_path": "/run/media/shivamk21/data/pretrain_models/jonatasgrosman--wav2vec2-large-xlsr-53-spanish",
             "model_type": "hf",
             "lang": "es",
             "post_process": "collapse"

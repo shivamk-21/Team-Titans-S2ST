@@ -6,6 +6,9 @@
 import csv
 import logging
 import re
+
+# Increase CSV field size limit to handle large target audio token sequences
+csv.field_size_limit(1000000)
 from argparse import Namespace
 from collections import defaultdict
 from dataclasses import dataclass

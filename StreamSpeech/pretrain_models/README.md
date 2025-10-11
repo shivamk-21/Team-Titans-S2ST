@@ -3,7 +3,7 @@
 Download unit-based HiFi-GAN vocoder and HuBERT for unit extraction:
 
 ```shell
-ROOT=/data/zhangshaolei/StreamSpeech # change to your local address
+ROOT=/run/media/shivamk21/data/ML-Project/StreamSpeech # change to your local address
 PRETRAIN_ROOT=$ROOT/pretrained_models
 
 # unit-based_HiFi-GAN_vocoder

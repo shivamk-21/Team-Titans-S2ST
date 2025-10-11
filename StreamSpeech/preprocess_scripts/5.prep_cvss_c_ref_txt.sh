@@ -1,7 +1,7 @@
 
 lang=$1
-CVSS_ROOT=/data/zhangshaolei/datasets/cvss/cvss-c
-ROOT=/data/zhangshaolei/StreamSpeech
+CVSS_ROOT=/run/media/shivamk21/data/ML-Project/Datasets/processed_datasets/cvss/cvss-c/
+ROOT=/run/media/shivamk21/data/ML-Project/StreamSpeech
 
 for split in train dev test
 do

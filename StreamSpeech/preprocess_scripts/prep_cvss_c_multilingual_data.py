@@ -103,6 +103,9 @@ class CoVoST(Dataset):
             "ja",
             "id",
             "cy",
+            "hi",
+            "mr",
+            "ma"
         ],
     }
     EN_XX_LANGUAGES = {
@@ -566,6 +569,9 @@ def main():
             "id",
             "cy",
             "all",
+            "hi",
+            "mr",
+            "ma"
         ],
         help="filter source language",
     )

@@ -1,13 +1,13 @@
 export CUDA_VISIBLE_DEVICES=0
 
-ROOT=/data/zhangshaolei/StreamSpeech
+ROOT=/run/media/shivamk21/data/ML-Project/StreamSpeech
 DATA_ROOT=/data/zhangshaolei/datasets/cvss/cvss-c
 PRETRAIN_ROOT=/data/zhangshaolei/pretrain_models
 VOCODER_CKPT=$PRETRAIN_ROOT/unit-based_HiFi-GAN_vocoder/mHuBERT.layer11.km1000.en/g_00500000
 VOCODER_CFG=$PRETRAIN_ROOT/unit-based_HiFi-GAN_vocoder/mHuBERT.layer11.km1000.en/config.json
 
 LANG=fr
-file=/data/zhangshaolei/StreamSpeech_model/streamspeech.simultaneous.${LANG}-en.pt
+file=/run/media/shivamk21/data/ML-Project/StreamSpeech_model/streamspeech.simultaneous.${LANG}-en.pt
 output_dir=$ROOT/res/streamspeech.simultaneous.${LANG}-en/simul-s2st
 
 chunk_size=960

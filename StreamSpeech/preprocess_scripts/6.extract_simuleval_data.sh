@@ -1,7 +1,7 @@
 lang=$1
-CVSS_ROOT=/data/zhangshaolei/datasets/cvss/cvss-c
-COVOST2_ROOT=/data/zhangshaolei/datasets/covost2
-ROOT=/data/zhangshaolei/StreamSpeech
+CVSS_ROOT=/run/media/shivamk21/data/ML-Project/Datasets/processed_datasets/cvss/cvss-c/
+COVOST2_ROOT=/run/media/shivamk21/data/ML-Project/Datasets/processed_datasets/covost2
+ROOT=/run/media/shivamk21/data/ML-Project/StreamSpeech
 
 
 PYTHONPATH=$ROOT/fairseq python $ROOT/preprocess_scripts/extract_simuleval_data.py \

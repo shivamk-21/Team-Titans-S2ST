@@ -216,8 +216,9 @@ class SpeechToUnit2passCTCASRSTMultitaskTaskCriterion(
             non_padding_mask = ~net_output[-1]["decoder_padding_mask"]
             input_lengths = non_padding_mask.long().sum(-1)
         else:
+            # lprobs is [T, B, vocab_size] after transpose, so batch_size is lprobs.size(1)
             input_lengths = lprobs.new_full(
-                (lprobs.size(0),), lprobs.size(1), dtype=torch.long
+                (lprobs.size(1),), lprobs.size(0), dtype=torch.long
             )
 
         with torch.backends.cudnn.flags(enabled=False):
@@ -247,8 +248,9 @@ class SpeechToUnit2passCTCASRSTMultitaskTaskCriterion(
             non_padding_mask = ~net_output[-1]["decoder_padding_mask"]
             input_lengths = non_padding_mask.long().sum(-1)
         else:
+            # lprobs is [T, B, vocab_size] after transpose, so batch_size is lprobs.size(1)
             input_lengths = lprobs.new_full(
-                (lprobs.size(0),), lprobs.size(1), dtype=torch.long
+                (lprobs.size(1),), lprobs.size(0), dtype=torch.long
             )
 
         logging_output = {}

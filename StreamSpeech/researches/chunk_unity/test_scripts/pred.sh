@@ -1,6 +1,6 @@
 export CUDA_VISIBLE_DEVICES=7
 
-ROOT=/data/zhangshaolei/StreamSpeech
+ROOT=/run/media/shivamk21/data/ML-Project/StreamSpeech
 DATA_ROOT=/data/zhangshaolei/datasets/cvss/cvss-c
 PRETRAIN_ROOT=/data/zhangshaolei/pretrain_models
 VOCODER_CKPT=$PRETRAIN_ROOT/unit-based_HiFi-GAN_vocoder/mHuBERT.layer11.km1000.en/g_00500000
@@ -11,7 +11,7 @@ DATA=${DATA_ROOT}/${LANG}-en/fbank2unit
 SPLIT=test
 BEAM=10
 
-file=/data/zhangshaolei/StreamSpeech_model/unity.${LANG}-en.pt
+file=/run/media/shivamk21/data/ML-Project/StreamSpeech_model/unity.${LANG}-en.pt
 
 mkdir res
 output_dir=res/unity.${LANG}-en

@@ -1,8 +1,8 @@
 {
-    "data-bin": "/data/zhangshaolei/StreamSpeech/configs/fr-en",
-    "user-dir": "/data/zhangshaolei/StreamSpeech/researches/ctc_unity",
-    "agent-dir": "/data/zhangshaolei/StreamSpeech/agent",
-    "model-path": "/data/zhangshaolei/StreamSpeech_model/streamspeech.simultaneous.fr-en.pt",
+    "data-bin": "/run/media/shivamk21/data/ML-Project/StreamSpeech/configs/fr-en",
+    "user-dir": "/run/media/shivamk21/data/ML-Project/StreamSpeech/researches/ctc_unity",
+    "agent-dir": "/run/media/shivamk21/data/ML-Project/StreamSpeech/agent",
+    "model-path": "/run/media/shivamk21/data/ML-Project/StreamSpeech_model/streamspeech.simultaneous.fr-en.pt",
     "config-yaml": "config_gcmvn.yaml",
     "multitask-config-yaml": "config_mtl_asr_st_ctcst.yaml",
     "segment-size": 320,

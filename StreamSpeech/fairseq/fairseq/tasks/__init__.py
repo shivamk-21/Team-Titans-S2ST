@@ -136,3 +136,15 @@ def import_tasks(tasks_dir, namespace):
 # automatically import any Python files in the tasks/ directory
 tasks_dir = os.path.dirname(__file__)
 import_tasks(tasks_dir, "fairseq.tasks")
+
+# --- Patch: Register mHuBERT task alias ---
+from fairseq.tasks import hubert_pretraining
+
+# If mhubert_pretraining not already registered, map it to hubert_pretraining
+if "mhubert_pretraining" not in TASK_REGISTRY:
+    TASK_REGISTRY["mhubert_pretraining"] = hubert_pretraining.HubertPretrainingTask
+    TASK_DATACLASS_REGISTRY["mhubert_pretraining"] = (
+        hubert_pretraining.HubertPretrainingConfig
+        if hasattr(hubert_pretraining, "HubertPretrainingConfig")
+        else None
+    )
