@@ -1,0 +1,12 @@
+target_unigram:
+    decoder_type: transformer
+    dict: /run/media/shivamk21/data/ML-Project/Datasets/processed_datasets/cvss/cvss-c/hi-en/tgt_unigram200/spm_unigram_hi.txt
+    data: /run/media/shivamk21/data/ML-Project/Datasets/processed_datasets/cvss/cvss-c/hi-en/tgt_unigram200
+    loss_weight: 8.0
+    rdrop_alpha: 0.0
+    decoder_args:
+        decoder_layers: 4
+        decoder_embed_dim: 512
+        decoder_ffn_embed_dim: 2048
+        decoder_attention_heads: 8
+    label_smoothing: 0.1

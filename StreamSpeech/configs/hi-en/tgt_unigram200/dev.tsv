@@ -1,0 +1,11 @@
+id	tgt_text
+audio_0_45	▁so ▁y ou ▁wi ll ▁ge t ▁the ▁equations ▁in ▁th is ▁form
+audio_0_9	▁it ▁i s ▁an ▁ upp er ▁ tri a ng u lar ▁matrix ▁a nd ▁i f ▁i ▁t a k e ▁the ▁de ter m in a n t ▁o f ▁th is ▁c ame ra ▁ca li b ration ▁matrix ▁th is ▁i s ▁th is ▁sho u ld ▁be ▁the ▁pro d u ct ▁o f ▁th ose ▁t wo ▁ re s olu tion ▁f a ct o r s
+audio_0_30	▁so ▁si nce ▁the re ▁a re ▁t wo ▁independent ▁equations ▁th at ▁me ans ▁i f ▁i ▁give ▁y ou ▁c er ta in ▁point ▁correspondences ▁su pp ose ▁the ▁pro b le m ▁h ere ▁i s ▁th at ▁i ▁give ▁y ou ▁the ▁sc en e ▁point s ▁s a y ▁x 1 ▁a nd ▁al so ▁its ▁correspond ing ▁no ▁ ima ge ▁point ▁s m all ▁x 1 ▁i f ▁it ▁i s ▁give n ▁to ▁y ou ▁the n ▁i ▁can ▁a pp l y ▁the se ▁equations ▁i ▁wi ll ▁ge t ▁t wo ▁equations ▁b ut ▁h ow ▁ma n y ▁unknown s ▁a re ▁the re ▁a s ▁i ▁me n tion ed ▁in ▁the ▁projecti on ▁matrix ▁the re ▁a re ▁11 ▁unknown s ▁so ▁i ▁sho u ld ▁ge t ▁ at ▁l ea st ▁11 ▁equations ▁to ▁so l ve ▁for ▁a ll ▁the ▁unknown s ▁b ut ▁si nce ▁ one ▁point ▁correspondence ▁give s ▁me ▁t wo ▁equations ▁so ▁i ▁r equi re ▁ at ▁l ea st ▁s ix ▁su ch ▁point ▁correspondences ▁i ▁r equi re ▁ at ▁l ea st ▁s ix ▁su ch ▁point ▁correspondences ▁to ▁form ▁no ▁equations ▁a nd ▁f ro m ▁the re ▁i ▁can ▁est ima te ▁the ▁projecti on ▁matrix
+audio_0_97	▁th is ▁l in ea r ▁equations ▁the y ▁form ▁a ▁ se t ▁o f ▁h o m o ge n e ou s ▁l in ea r ▁equations
+audio_0_24	▁so ▁we ▁wi ll ▁su m m a ri z e ▁we ▁wi ll ▁l o o k ▁ at ▁so m e ▁o f ▁the ▁pro per t i e s ▁o f ▁the ▁projecti ve ▁c ame ra ▁matrix
+audio_0_42	▁so ▁in st ea d ▁o f ▁th at ▁we ▁can ▁c on s i der ▁the m ▁a s ▁vector s ▁a nd ▁the se ▁vector s ▁so ▁the i r ▁direction s ▁a re ▁to ▁be ▁s ame ▁b ec a u se ▁y ou ▁ k n ow ▁th at ▁the ▁pro p o r tion at e ▁sc al ing ▁ d o e s ▁not ▁ ch a n ge ▁the ▁direction ▁o f ▁a ▁vector ▁so ▁i f ▁i ▁c on s i der ▁si nce ▁the y re ▁ equi v al ent ▁the y re ▁ e q u al ▁so ▁i f ▁i ▁i f ▁so ▁in ▁th at ▁ca se ▁the ▁inter pre t ation ▁i s ▁th at ▁th ose ▁vector s ▁the y ▁a re ▁par all e l ▁vector s ▁the y ▁sho u ld ▁ha ve ▁s ame ▁direction s
+audio_0_77	▁so ▁ le t ▁me ▁sho w ▁y ou
+audio_0_46	▁so ▁ le t ▁me ▁sho w ▁y ou
+audio_0_75	▁so ▁y ou ▁can ▁ d o ▁it ▁on ▁y ou r ▁ ow n ▁a nd ▁y ou ▁can ▁ ch ec k ▁h ow ▁the se ▁equations ▁a re ▁formed
+audio_0_5	▁it ▁can ▁be ▁sho w n ▁a s ▁a ▁c o m b in ation ▁o f ▁ d i f f er ent ▁t y p e s ▁o f ▁matrices

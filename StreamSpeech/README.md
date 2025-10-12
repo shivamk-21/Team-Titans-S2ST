@@ -95,7 +95,7 @@ https://github.com/ictnlp/StreamSpeech/assets/34680227/4d9bdabf-af66-4320-ae7d-0
 
 #### (1) Config Files
 
-Replace `/data/zhangshaolei/StreamSpeech` in files [configs/fr-en/config_gcmvn.yaml](./configs/fr-en/config_gcmvn.yaml) and [configs/fr-en/config_mtl_asr_st_ctcst.yaml](./configs/fr-en/config_mtl_asr_st_ctcst.yaml) with your local address of StreamSpeech repo.
+Replace `/run/media/shivamk21/data/ML-Project/StreamSpeech` in files [configs/fr-en/config_gcmvn.yaml](./configs/fr-en/config_gcmvn.yaml) and [configs/fr-en/config_mtl_asr_st_ctcst.yaml](./configs/fr-en/config_mtl_asr_st_ctcst.yaml) with your local address of StreamSpeech repo.
 
 #### (2) Test Data
 
@@ -118,7 +118,7 @@ Run these scripts to inference StreamSpeech on streaming ASR, simultaneous S2TT 
 ```shell
 export CUDA_VISIBLE_DEVICES=0
 
-ROOT=/data/zhangshaolei/StreamSpeech # path to StreamSpeech repo
+ROOT=/run/media/shivamk21/data/ML-Project/StreamSpeech # path to StreamSpeech repo
 PRETRAIN_ROOT=/data/zhangshaolei/pretrain_models 
 VOCODER_CKPT=$PRETRAIN_ROOT/unit-based_HiFi-GAN_vocoder/mHuBERT.layer11.km1000.en/g_00500000 # path to downloaded Unit-based HiFi-GAN Vocoder
 VOCODER_CFG=$PRETRAIN_ROOT/unit-based_HiFi-GAN_vocoder/mHuBERT.layer11.km1000.en/config.json # path to downloaded Unit-based HiFi-GAN Vocoder
@@ -238,7 +238,7 @@ $output_dir/chunk_size=$chunk_size
 ```shell
 export CUDA_VISIBLE_DEVICES=0
 
-ROOT=/data/zhangshaolei/StreamSpeech # path to StreamSpeech repo
+ROOT=/run/media/shivamk21/data/ML-Project/StreamSpeech # path to StreamSpeech repo
 
 LANG=fr
 file=streamspeech.simultaneous.${LANG}-en.pt # path to downloaded StreamSpeech model
@@ -264,7 +264,7 @@ PYTHONPATH=$ROOT/fairseq simuleval --data-bin ${ROOT}/configs/${LANG}-en \
 ```shell
 export CUDA_VISIBLE_DEVICES=0
 
-ROOT=/data/zhangshaolei/StreamSpeech # path to StreamSpeech repo
+ROOT=/run/media/shivamk21/data/ML-Project/StreamSpeech # path to StreamSpeech repo
 
 LANG=fr
 file=streamspeech.simultaneous.${LANG}-en.pt # path to downloaded StreamSpeech model
