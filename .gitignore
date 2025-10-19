@@ -1,8 +1,8 @@
 *.wav
 *.pt
-processed_datasets
 __pycache__/
 .ipynb_checkpoints
 *.bin
 *.pyc
 training/
+*.zip
