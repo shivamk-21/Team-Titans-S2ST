@@ -1,0 +1,86 @@
+################### ASR source text BLEU ###################
+{
+ "name": "BLEU",
+ "score": 0.0,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.3.1",
+ "verbose_score": "0.0/0.0/0.0/0.0 (BP = 0.000 ratio = 0.000 hyp_len = 0 ref_len = 248)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.3.1"
+}
+################### Speech-to-text target text BLEU ###################
+################### Speech-to-unit target unit BLEU ###################
+################### ASR source text BLEU ###################
+{
+ "name": "BLEU",
+ "score": 0.0,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.3.1",
+ "verbose_score": "0.0/0.0/0.0/0.0 (BP = 0.000 ratio = 0.000 hyp_len = 0 ref_len = 248)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.3.1"
+}
+################### ASR source text BLEU ###################
+{
+ "name": "BLEU",
+ "score": 4.347,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.3.1",
+ "verbose_score": "25.9/4.2/2.4/1.4 (BP = 1.000 ratio = 1.125 hyp_len = 27 ref_len = 24)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.3.1"
+}
+WER: 0.875
+################### Speech-to-text target text BLEU ###################
+{
+ "name": "BLEU",
+ "score": 0.808,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.3.1",
+ "verbose_score": "12.9/4.9/2.5/1.3 (BP = 1.000 ratio = 4.048 hyp_len = 85 ref_len = 21)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.3.1"
+}
+################### Speech-to-unit target unit BLEU ###################
+################### Speech-to-speech target speech ASR-BLEU ###################
+################### ASR source text BLEU ###################
+{
+ "name": "BLEU",
+ "score": 4.347,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.3.1",
+ "verbose_score": "25.9/4.2/2.4/1.4 (BP = 1.000 ratio = 1.125 hyp_len = 27 ref_len = 24)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.3.1"
+}
+WER: 0.875
+################### Speech-to-text target text BLEU ###################
+{
+ "name": "BLEU",
+ "score": 0.808,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.3.1",
+ "verbose_score": "12.9/4.9/2.5/1.3 (BP = 1.000 ratio = 4.048 hyp_len = 85 ref_len = 21)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.3.1"
+}
+################### Speech-to-unit target unit BLEU ###################
+################### Speech-to-speech target speech ASR-BLEU ###################
