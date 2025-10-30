@@ -1,0 +1,29 @@
+################### ASR source text BLEU ###################
+{
+ "name": "BLEU",
+ "score": 42.831,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.3.1",
+ "verbose_score": "69.8/51.6/38.9/29.7 (BP = 0.948 ratio = 0.949 hyp_len = 46955 ref_len = 49463)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.3.1"
+}
+WER: 0.38291248003558215
+################### Speech-to-text target text BLEU ###################
+{
+ "name": "BLEU",
+ "score": 15.196,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.3.1",
+ "verbose_score": "38.8/13.9/5.7/2.3 (BP = 0.784 ratio = 0.804 hyp_len = 51755 ref_len = 64340)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.3.1"
+}
+################### Speech-to-unit target unit BLEU ###################
+################### Speech-to-speech target speech ASR-BLEU ###################
