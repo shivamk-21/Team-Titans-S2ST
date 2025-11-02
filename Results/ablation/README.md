@@ -7,3 +7,9 @@
 | 6              | 2               | Mixed     | 17.412 `Original` |
 | 4              | 2               | Mixed     | 15.900 |
 
+## For Malayalam
+
+| Encoder Layers | Attention Heads | Precision | BLEU Score |
+|----------------|-----------------|-----------|------------|
+| 6 | 2 | Mixed | 13.456 `Original`|
+| 4 | 2 | Mixed | 12.100 |
