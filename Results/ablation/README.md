@@ -13,3 +13,10 @@
 |----------------|-----------------|-----------|------------|
 | 6 | 2 | Mixed | 13.456 `Original`|
 | 4 | 2 | Mixed | 12.100 |
+
+## For Marathi
+
+| Encoder Layers | Attention Heads | Precision | BLEU Score |
+|----------------|-----------------|-----------|------------|
+| 6 | 2 | Mixed | 15.196 `Original`|
+| 4 | 2 | Mixed | 13.462 |
