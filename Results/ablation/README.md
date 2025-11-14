@@ -8,6 +8,8 @@
 | 4              | 2               | Mixed     | 15.900 |
 | 8 | 2 | Mixed | 16.200 |
 | 6 | 2 | F32 | OOM Crash |
+| 12 | 4 | F16 | Exploding Gradient Crash |
+| 6 | 2 | F16 | 16.830 |
 
 ## For Malayalam
 
@@ -28,3 +30,5 @@
 | 4 | 2 | Mixed | 13.462 |
 | 8 | 2 | Mixed | 14.641 |
 | 6 | 2 | F32 | OOM Crash |
+| 12 | 4 | F16 | Exploding Gradient Crash |
+| 6 | 2 | F16 | 14.813 |
