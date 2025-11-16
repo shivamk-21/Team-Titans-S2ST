@@ -1,0 +1,11 @@
+name: speech
+channels:
+  - https://conda.anaconda.org/conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - pytorch-cuda=11.8
+  - torchaudio
+  - torchvision
+  - ipykernel
+prefix: /home/shivamk21/.conda/envs/speech
